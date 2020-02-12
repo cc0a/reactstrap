@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './assets/scss/services.scss';
 
 function App() {
   return (
@@ -14,23 +15,6 @@ function App() {
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
       </div>
     </div>
   </nav>
@@ -39,7 +23,7 @@ function App() {
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Our Studio!</div>
+        <div class="intro-lead-in">You Are Not Alone</div>
         <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
       </div>
@@ -51,33 +35,24 @@ function App() {
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Services</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase" id="services-heading">Services</h2>
         </div>
       </div>
       <div class="row text-center">
-        <div class="col-md-4">
+        <div class="col-md-6">
           <span class="fa-stack fa-4x">
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
             <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">E-Commerce</h4>
+          <h4 class="service-heading">Bankruptcy</h4>
           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
           <span class="fa-stack fa-4x">
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
             <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Responsive Design</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Web Security</h4>
+          <h4 class="service-heading">SSI Assistance</h4>
           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
       </div>
@@ -85,7 +60,7 @@ function App() {
   </section>
 
   {/* <!-- Portfolio Grid --> */}
-  <section class="bg-light page-section" id="portfolio">
+  {/* <section class="bg-light page-section" id="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -180,10 +155,10 @@ function App() {
         </div>
       </div>
     </div>
-  </section>
+  </section> */}
 
   {/* <!-- About --> */}
-  <section class="page-section" id="about">
+  {/* <section class="page-section" id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -261,7 +236,7 @@ function App() {
         </div>
       </div>
     </div>
-  </section>
+  </section> */}
 
   {/* <!-- Team --> */}
   <section class="bg-light page-section" id="team">
@@ -276,9 +251,9 @@ function App() {
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="" />
-            <h4>Kay Garland</h4>
-            <p class="text-muted">Lead Designer</p>
-            <ul class="list-inline social-buttons">
+            <h4>Elizabeth Lounsberry</h4>
+            <p class="text-muted">Attorney at Law</p>
+            {/* <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
                   <i class="fa fa-twitter"></i>
@@ -294,15 +269,15 @@ function App() {
                   <i class="fa fa-linkedin-in"></i>
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
-            <h4>Larry Parker</h4>
-            <p class="text-muted">Lead Marketer</p>
-            <ul class="list-inline social-buttons">
+            <h4>Christy Hawes</h4>
+            <p class="text-muted">Office Manager</p>
+            {/* <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
                   <i class="fa fa-twitter"></i>
@@ -318,15 +293,15 @@ function App() {
                   <i class="fa fa-linkedin-in"></i>
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="" />
-            <h4>Diana Pertersen</h4>
-            <p class="text-muted">Lead Developer</p>
-            <ul class="list-inline social-buttons">
+            <h4>Myra ????</h4>
+            <p class="text-muted">Office Assistant</p>
+            {/* <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
                   <i class="fa fa-twitter"></i>
@@ -342,7 +317,7 @@ function App() {
                   <i class="fa fa-linkedin-in"></i>
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>
