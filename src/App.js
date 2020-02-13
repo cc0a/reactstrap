@@ -4,6 +4,7 @@ import './App.css';
 import './assets/scss/services.scss';
 import './assets/scss/masthead.scss';
 import './assets/scss/navbar.scss';
+import './assets/scss/lounsway.scss';
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
       </div>
     </div>
   </header>
+
+<div class="louns-way">
+      <h3>The Lounsberry Way</h3>
+</div>
 
   {/* <!-- Services --> */}
   <section class="page-section" id="services">
