@@ -3,15 +3,15 @@ import logo from './logo.svg';
 import './App.css';
 import './assets/scss/services.scss';
 import './assets/scss/masthead.scss';
+import './assets/scss/navbar.scss';
 
 function App() {
   return (
     <div className="App">
 
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="main-nav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Lounsberry Law</a>
-        {/* Menu */}
+      <a class="navbar-brand js-scroll-trigger" id="nav-text" href="#page-top">Lounsberry Law</a>
       <div class="collapse navbar-collapse" id="navbarResponsive">
       </div>
     </div>
