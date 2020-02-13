@@ -28,7 +28,11 @@ function App() {
   </header>
 
 <div class="louns-way">
-      <h3>The Lounsberry Way</h3>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+          <h3>The Lounsberry Way</h3> 
+      </div>
+    </div>
 </div>
 
   {/* <!-- Services --> */}
