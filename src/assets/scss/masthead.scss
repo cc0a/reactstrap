@@ -22,3 +22,18 @@
       opacity: 1;
     }
   }
+
+  // begin media queries
+
+  @media (min-width: 381px) and (max-width: 420px) {
+    #masthead-specific {
+      height: 198vw;
+      text-decoration: none;
+  }
+}
+  @media (min-width: 250px) and (max-width: 380px) {
+      #masthead-specific {
+        height: 158vw;
+        text-decoration: none;
+    }
+  }  
