@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './assets/scss/services.scss';
+import './assets/scss/masthead.scss';
 
 function App() {
   return (
@@ -10,22 +11,17 @@ function App() {
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Lounsberry Law</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         {/* Menu */}
-        <i class="fas fa-bars"></i>
-      </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
       </div>
     </div>
   </nav>
 
   {/* <!-- Header --> */}
-  <header class="masthead">
+  <header class="masthead" id="masthead-specific">
     <div class="container">
-      <div class="intro-text">
-        <div class="intro-lead-in">You Are Not Alone</div>
-        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+      <div class="intro-text" id="masthead-phrase-1">
+        <div id="masthead-phrase-1">You Are Not Alone</div>
       </div>
     </div>
   </header>
