@@ -1,5 +1,5 @@
 .louns-way {
-    height: 350px;
+    height: 300px;
     padding-top: 30px;
     text-align: center;
     color: white;
@@ -10,3 +10,33 @@
     padding-left: 11px;
     padding-right: 11px;
 }
+
+.louns-way-heading {
+    font-family: 'Inria Serif', serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1201px) {
+    .louns-way {
+        height: 300px;
+        padding-top: 30px;
+        text-align: center;
+        color: white;
+        background-color: #6b6a6c;
+    }
+
+    .louns-way-content {
+        padding-left: 250px;
+        padding-right: 250px;
+        font-size: 25px;
+    } 
+}    
+
+@media (min-width: 911px) and (max-width: 1200px) {
+    .louns-way-content {
+        padding-left: 150px;
+        padding-right: 150px;
+        font-size: 20px;
+    }
+}    

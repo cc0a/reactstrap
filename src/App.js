@@ -28,7 +28,7 @@ function App() {
   </header>
 
 <div class="louns-way">
-          <h3>The Lounsberry Way</h3> 
+          <h3 className="louns-way-heading">The Lounsberry Way</h3> 
           <p className="louns-way-content">For the last 25 years, Lounsberry Law has endeavored to deliver exceptional, affordable legal services to our clients. We believe there's something to be said for doing things right the first time, every time.</p>
 </div>
 
