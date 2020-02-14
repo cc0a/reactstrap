@@ -5,7 +5,7 @@ import './assets/scss/masthead.scss';
 import './assets/scss/navbar.scss';
 import './assets/scss/lounsway.scss';
 import { MdAttachMoney } from 'react-icons/md';
-import { FaHandsHelping } from 'react-icons/fa';
+import { FaHandsHelping, FaPhone } from 'react-icons/fa';
 
 function App() {
   return (
@@ -14,9 +14,8 @@ function App() {
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="main-nav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" id="nav-text" href="#page-top">Lounsberry Law</a>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <FaPhone className="phone-icon"/>
       </div>
-    </div>
   </nav>
 
   {/* <!-- Header --> */}
