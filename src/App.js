@@ -6,6 +6,7 @@ import './assets/scss/navbar.scss';
 import './assets/scss/lounsway.scss';
 import { MdAttachMoney } from 'react-icons/md';
 import { FaHandsHelping, FaPhone } from 'react-icons/fa';
+import AboutImg from './assets/img/about.jpg'
 
 function App() {
   return (
@@ -250,31 +251,14 @@ function App() {
       <div class="row">
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="" />
+            <img className="about-image" src={AboutImg} />
             <h4>Elizabeth Lounsberry</h4>
             <p class="text-muted">Attorney at Law</p>
-            {/* <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul> */}
           </div>
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
+          <img className="about-image" src={AboutImg} />
             <h4>Christy Hawes</h4>
             <p class="text-muted">Office Manager</p>
             {/* <ul class="list-inline social-buttons">
@@ -298,7 +282,7 @@ function App() {
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="" />
+            <img className="about-image" src={AboutImg} />
             <h4>Myra ????</h4>
             <p class="text-muted">Office Assistant</p>
             {/* <ul class="list-inline social-buttons">
