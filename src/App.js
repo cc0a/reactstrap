@@ -1,10 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import './assets/scss/services.scss';
 import './assets/scss/masthead.scss';
 import './assets/scss/navbar.scss';
 import './assets/scss/lounsway.scss';
+import { MdAttachMoney } from 'react-icons/md';
+import { FaHandsHelping } from 'react-icons/fa';
 
 function App() {
   return (
@@ -43,19 +44,17 @@ function App() {
       <div class="row text-center">
         <div class="col-md-6">
           <span class="fa-stack fa-4x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            <MdAttachMoney className="services-dollar-icon"/>
           </span>
           <h4 class="service-heading">Bankruptcy</h4>
-          <p class="text-muted">Lounsberry Law Office is dedicated to helping people and keeping costs low. Bankruptcy is much less stressful when someone takes the time to explain the process. We care about our clients. We provide free credit repair information after your bankruptcy is discharged, which takes approximately four months.</p>
+          <p id="services-content">Lounsberry Law Office is dedicated to helping people and keeping costs low. Bankruptcy is much less stressful when someone takes the time to explain the process. We care about our clients. We provide free credit repair information after your bankruptcy is discharged, which takes approximately four months.</p>
         </div>
         <div class="col-md-6">
           <span class="fa-stack fa-4x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+            <FaHandsHelping />
           </span>
           <h4 class="service-heading">SSI Assistance</h4>
-          <p class="text-muted">If you are suffering from a disability and you cannot do the work you did before, cannot adjust to other work because of your medical conditions, and your disability has lasted or is expected to last for at least one year or result in death, you may be eligible for SSD benefits.</p>
+          <p id="services-content">If you are suffering from a disability and you cannot do the work you did before, cannot adjust to other work because of your medical conditions, and your disability has lasted or is expected to last for at least one year or result in death, you may be eligible for SSD benefits.</p>
         </div>
       </div>
     </div>
