@@ -14,3 +14,9 @@
     height: 40px;
     width: 40px;
 }
+
+@media only screen and (min-width: 420px) {
+    .phone-icon {
+        display: none;
+    }
+}    
