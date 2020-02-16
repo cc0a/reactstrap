@@ -15,7 +15,7 @@ function App() {
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="main-nav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" id="nav-text" href="#page-top">Lounsberry Law</a>
-      <FaPhone className="phone-icon"/>
+      <a href="tel:970-660-4436"><FaPhone className="phone-icon"/></a>
       </div>
   </nav>
 
