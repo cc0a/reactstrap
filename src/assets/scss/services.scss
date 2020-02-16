@@ -3,14 +3,24 @@
     color: white;
 }
 
+.dollar-container {
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
 .services-dollar-icon {
     height: 90px;
     width: 90px;
+    color: #98c1d9;
+    margin-left: 5px;
+    margin-bottom: 10px;
 }
 
 #services-heading {
     margin-bottom: 70px;
     font-family: 'Inria Serif', serif;
+    font-size: 50px;
 }
 
 #services-content {

@@ -48,7 +48,9 @@ function App() {
       <div class="row text-center">
         <div class="col-md-6">
           <span class="fa-stack fa-4x">
-            <MdAttachMoney className="services-dollar-icon"/>
+            <div className="dollar-container">
+              <MdAttachMoney className="services-dollar-icon"/>
+            </div>
           </span>
           <h4 class="service-heading">Bankruptcy</h4>
           <p id="services-content">Lounsberry Law Office is dedicated to helping people and keeping costs low. Bankruptcy is much less stressful when someone takes the time to explain the process. We care about our clients. We provide free credit repair information after your bankruptcy is discharged, which takes approximately four months.</p>
@@ -69,8 +71,7 @@ function App() {
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading" id="team-heading">Meet The Team</h2>
         </div>
       </div>
       <div class="row">
