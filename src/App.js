@@ -5,12 +5,14 @@ import './assets/scss/masthead.scss';
 import './assets/scss/navbar.scss';
 import './assets/scss/lounsway.scss';
 import './assets/scss/team.scss';
+import './assets/scss/contact.scss';
 import { MdAttachMoney } from 'react-icons/md';
 import { FaHandsHelping, FaPhone } from 'react-icons/fa';
 import AboutImg from './assets/img/about.jpg';
 import Myra from './assets/img/myra.png';
 import Liz from './assets/img/liz.jpg';
 import Christy from './assets/img/christy.jpg';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -46,7 +48,7 @@ function App() {
         </div>
       </div>
       <div class="row text-center">
-        <div class="col-md-6">
+        <div class="col-md-6" id="dollar-div">
           <span class="fa-stack fa-4x">
             <div className="dollar-container">
               <MdAttachMoney className="services-dollar-icon"/>
@@ -94,8 +96,8 @@ function App() {
         <div class="col-sm-4">
           <div class="team-member">
             <img className="about-image" src={Myra} />
-            <h4>Myra</h4>
-            <p class="text-muted">Office Assistant</p>
+            <h4>Myra Sanchez</h4>
+            <p class="text-muted">Senior Paralegal</p>
           </div>
         </div>
       </div>
@@ -135,13 +137,16 @@ function App() {
     </div>
   </section>
 
+  <section class="page-section" id="testimonials-section">
+      <Testimonials />
+  </section>
+
   {/* <!-- Contact --> */}
   <section class="page-section" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Contact Us</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading" id="contact-heading">Contact Us</h2>
         </div>
       </div>
       <div class="row">
@@ -171,7 +176,7 @@ function App() {
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                <button id="sendMessageButton" class="btn btn-primary btn-xl" id="contact-button" type="submit">Send Message</button>
               </div>
             </div>
           </form>
@@ -185,34 +190,14 @@ function App() {
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
+          <span class="copyright">Copyright &copy; Lounsberry Law 2020</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
               <a href="#">
-                <i class="fa fa-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
                 <i class="fa fa-facebook-f"></i>
               </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fa fa-linkedin-in"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline quicklinks">
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
             </li>
           </ul>
         </div>

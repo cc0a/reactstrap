@@ -25,16 +25,12 @@
     margin-bottom: 10px;
 }
 
-#hands-div {
-    padding-top: 20px;
-    border: 1px solid white;
-}
-
 #services-heading {
     margin-bottom: 70px;
     font-family: 'Inria Serif', serif;
     font-size: 50px;
 }
+
 
 #services-content {
     color: white;
@@ -42,6 +38,13 @@
 }
 
 @media (min-width: 200px) and (max-width: 615px) {
+    #dollar-div {
+        padding-top: 20px;
+         margin-left: 20px;
+         margin-right: 20px;
+         border: 1px solid white;
+    }
+
     #hands-div {
          margin-top: 50px;
          padding-top: 20px;

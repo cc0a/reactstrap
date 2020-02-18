@@ -1,0 +1,28 @@
+#testimonials-section {
+    background-color:rgb(248, 249, 250);
+}
+
+.testimonial-heading {
+    font-weight: 700;
+    font-family: 'Inria Serif', serif;
+}
+
+.testimonial-statement {
+    font-weight: 100;
+    font-family: 'Inria Serif', serif;
+}
+
+@media (min-width: 220px) and (max-width: 500px) {
+    .testimonial-heading {
+        font-weight: 700;
+        font-family: 'Inria Serif', serif;
+        padding-left: 10px;
+    }
+    
+    .testimonial-statement {
+        font-weight: 100;
+        font-family: 'Inria Serif', serif;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
