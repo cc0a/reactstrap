@@ -17,6 +17,19 @@
     margin-bottom: 10px;
 }
 
+.hands-icon {
+    height: 90px;
+    width: 90px;
+    color: #98c1d9;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#hands-div {
+    padding-top: 20px;
+    border: 1px solid white;
+}
+
 #services-heading {
     margin-bottom: 70px;
     font-family: 'Inria Serif', serif;
@@ -27,3 +40,13 @@
     color: white;
     font-size: 18px;
 }
+
+@media (min-width: 200px) and (max-width: 615px) {
+    #hands-div {
+         margin-top: 50px;
+         padding-top: 20px;
+         margin-left: 20px;
+         margin-right: 20px;
+         border: 1px solid white;
+    }
+}    

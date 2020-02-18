@@ -55,9 +55,11 @@ function App() {
           <h4 class="service-heading">Bankruptcy</h4>
           <p id="services-content">Lounsberry Law Office is dedicated to helping people and keeping costs low. Bankruptcy is much less stressful when someone takes the time to explain the process. We care about our clients. We provide free credit repair information after your bankruptcy is discharged, which takes approximately four months.</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" id="hands-div">
           <span class="fa-stack fa-4x">
-            <FaHandsHelping />
+          <div className="dollar-container">
+            <FaHandsHelping className="hands-icon"/>
+          </div>
           </span>
           <h4 class="service-heading">SSI Assistance</h4>
           <p id="services-content">If you are suffering from a disability and you cannot do the work you did before, cannot adjust to other work because of your medical conditions, and your disability has lasted or is expected to last for at least one year or result in death, you may be eligible for SSD benefits.</p>
