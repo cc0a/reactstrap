@@ -64,7 +64,7 @@ function App() {
             <FaHandsHelping className="hands-icon"/>
           </div>
           </span>
-          <h4 class="service-heading">SSI Assistance</h4>
+          <h4 class="service-heading">Social Security Disability Assistance</h4>
           <p id="services-content">If you are suffering from a disability and you cannot do the work you did before, cannot adjust to other work because of your medical conditions, and your disability has lasted or is expected to last for at least one year or result in death, you may be eligible for SSD benefits.</p>
         </div>
       </div>
@@ -104,7 +104,7 @@ function App() {
       </div>
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">The team at Lounsberry Law embraces a forward-thinking, yet practical and personal approach to providing legal services to our clients. Bringing a personal yet professional touch to our interactions with clients.</p>
+          <p class="large text-muted">The team at Lounsberry Law embraces a forward-thinking, yet practical and personal approach to providing legal services to our clients.</p>
         </div>
       </div>
     </div>
@@ -124,7 +124,7 @@ function App() {
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+          <form id="contactForm" name="sentMessage" novalidate="novalidate" action="//formspree.io/bankruptcy.christy@gmail.com" method="POST">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
