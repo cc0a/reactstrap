@@ -9,11 +9,22 @@
     font-size: 30px;
 }
 
+.phone-number {
+    color: white;
+    font-family: 'Gelasio', serif;
+}
+
 .phone-icon {
     color: white;
     height: 40px;
     width: 40px;
 }
+
+@media (min-width: 200px) and (max-width: 421px) {
+    .phone-number {
+        display: none;
+    }
+}    
 
 @media only screen and (min-width: 420px) {
     .phone-icon {

@@ -22,6 +22,7 @@ function App() {
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" id="nav-text" href="#page-top">Lounsberry Law</a>
       <a href="tel:970-660-4436"><FaPhone className="phone-icon"/></a>
+      <h3 className="phone-number">970-660-4436</h3>
       </div>
   </nav>
 
