@@ -39,4 +39,20 @@
         padding-right: 150px;
         font-size: 20px;
     }
+}  
+
+
+
+@media (min-width: 250px) and (max-width: 380px) {
+    .louns-way-heading {
+        font-size: 30px;
+    }
+
+    .louns-way {
+        height: 260px;
+        padding-top: 30px;
+        text-align: center;
+        color: white;
+        background-color: #6b6a6c;
+    }
 }    

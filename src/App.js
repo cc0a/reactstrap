@@ -55,7 +55,7 @@ function App() {
             </div>
           </span>
           <h4 class="service-heading">Bankruptcy</h4>
-          <p id="services-content">Lounsberry Law Office is dedicated to helping people and keeping costs low. Bankruptcy is much less stressful when someone takes the time to explain the process. We care about our clients. We provide free credit repair information after your bankruptcy is discharged, which takes approximately four months.</p>
+          <p id="services-content" id="bankruptcy-content">Lounsberry Law Office is dedicated to helping people and keeping costs low. Bankruptcy is much less stressful when someone takes the time to explain the process. We care about our clients. We provide free credit repair information after your bankruptcy is discharged, which takes approximately four months.</p>
         </div>
         <div class="col-md-6" id="hands-div">
           <span class="fa-stack fa-4x">
@@ -104,34 +104,6 @@ function App() {
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
           <p class="large text-muted">The team at Lounsberry Law embraces a forward-thinking, yet practical and personal approach to providing legal services to our clients. Bringing a personal yet professional touch to our interactions with clients.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  {/* <!-- Clients --> */}
-  <section class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="" />
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="" />
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="" />
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="" />
-          </a>
         </div>
       </div>
     </div>
@@ -189,10 +161,7 @@ function App() {
   <footer class="footer">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Lounsberry Law 2020</span>
-        </div>
-        <div class="col-md-4">
+        <div class="col-md-12">
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
               <a href="#">
@@ -200,6 +169,9 @@ function App() {
               </a>
             </li>
           </ul>
+        </div>
+        <div class="col-md-12">
+          <span class="copyright">Copyright &copy; Lounsberry Law 2020</span>
         </div>
       </div>
     </div>
