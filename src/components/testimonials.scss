@@ -16,6 +16,23 @@
     font-family: 'Inria Serif', serif;
 }
 
+.phone-container {
+    text-align: center;
+    margin-bottom: -60px;
+}
+
+.phone-number-heading {
+    font-weight: 700;
+    font-family: 'Inria Serif', serif;
+    margin-top: 20px;
+}
+
+.offices {
+    font-weight: 100;
+    font-family: 'Inria Serif', serif;
+    margin-top: 10px;
+}
+
 @media (min-width: 381px) and (max-width: 420px) {
     .testimonial-container {
         margin-bottom: -90px;
