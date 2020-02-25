@@ -6,6 +6,7 @@ import './assets/scss/navbar.scss';
 import './assets/scss/lounsway.scss';
 import './assets/scss/team.scss';
 import './assets/scss/contact.scss';
+import './assets/scss/footer.scss';
 import { MdAttachMoney } from 'react-icons/md';
 import { FaHandsHelping, FaPhone } from 'react-icons/fa';
 import AboutImg from './assets/img/about.jpg';
@@ -166,7 +167,7 @@ function App() {
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
               <a href="https://www.facebook.com/bankruptcy599/">
-                <i class="fa fa-facebook-f"></i>
+                <i class="fa fa-facebook-f" id="facebook-icon"></i>
               </a>
             </li>
           </ul>
