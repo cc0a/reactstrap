@@ -32,8 +32,12 @@ function App() {
     <div class="container">
       <div class="intro-text" id="masthead-phrase-1">
         <div id="masthead-phrase-1">You Are Not Alone</div>
-      </div>
+        </div>
+        <div class="intro-text" id="masthead-phrase-1">
+        <div id="masthead-phrase-2">$599 Bankruptcy</div>
+        </div>
     </div>
+    
   </header>
 
 <div class="louns-way">
