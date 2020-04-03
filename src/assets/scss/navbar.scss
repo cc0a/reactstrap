@@ -1,47 +1,92 @@
-#main-nav {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --mainTransition: all 0.3s linear;
+    --mainSpacing: 3px;
+  }
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.75rem 2rem;
+    z-index: 1;
     background-color: #6b6a6c;
-}
-
-#nav-text {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: 'Gelasio', serif;
-    font-size: 30px;
-}
-
-.phone-number {
+  }
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .nav-icon {
+    font-size: 1.5rem;
+    color: var(--primaryColor);
+  }
+  .nav-links {
+    height: 0;
+    overflow: hidden;
+    transition: var(--mainTransition);
+    list-style-type: none;
     color: white;
-    font-family: 'Gelasio', serif;
-    margin-left: -280px;
-}
+  }
+  .nav-links a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem 0;
+    color: var(--mainBlack);
+    transition: var(--mainTransition);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: var(--mainSpacing);
+  }
+  .nav-links a:hover {
+    color: var(--primaryColor);
+  }
+  
+  .show-nav {
+    height: 100px;
+  }
 
-.phone-icon {
-    color: white;
-    height: 30px;
-    margin-right: 20px;
-    width: 40px;
-}
+  .nav-icon {
+      font-size: 40px;
+      margin-top: 15px;
+      float: right;
+      color: white;
+  }
 
-.menu-icon {
-    color: white;
-    height: 40px;
-    margin-right: 5px;
-    width: 40px;
-}
+//   @media screen and (min-width: 1000px) {
+//     .nav-icon {
+//         font-size: 20px;
+//         display: none;
+//     }
 
-
-@media (min-width: 200px) and (max-width: 421px) {
-    .phone-number {
-        display: none;
-    }
-}    
-
-@media only screen and (min-width: 420px) {
-    .phone-icon {
-        display: none;
-    }
-
-    .menu-icon {
-        display: none;
-    }
-}    
+//     .nav-center {
+//       max-width: 1170px;
+//       margin: 0 auto;
+//       display: flex;
+//     }
+//     .nav-links {
+//       height: auto;
+//       display: flex;
+//       margin-left: 4rem;
+//     }
+//     .nav-links a {
+//       margin: 0 1rem;
+//       padding: 0.5rem 0;
+//     }
+//   }
+  
