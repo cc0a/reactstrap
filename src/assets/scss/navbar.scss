@@ -12,13 +12,23 @@
 .phone-number {
     color: white;
     font-family: 'Gelasio', serif;
+    margin-left: -280px;
 }
 
 .phone-icon {
     color: white;
-    height: 40px;
+    height: 30px;
+    margin-right: 20px;
     width: 40px;
 }
+
+.menu-icon {
+    color: white;
+    height: 40px;
+    margin-right: 5px;
+    width: 40px;
+}
+
 
 @media (min-width: 200px) and (max-width: 421px) {
     .phone-number {
@@ -28,6 +38,10 @@
 
 @media only screen and (min-width: 420px) {
     .phone-icon {
+        display: none;
+    }
+
+    .menu-icon {
         display: none;
     }
 }    

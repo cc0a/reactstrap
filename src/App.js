@@ -9,17 +9,22 @@ import Services from './components/Services/Services';
 import Team from './components/Team/Team';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <Services />
-      <Team />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <Switch>
+        <div className="App">
+          <Navbar />
+          <Header />
+          <Services />
+          <Team />
+          <Contact />
+          <Footer />
+        </div>
+      </Switch>
+    </Router>
   );
 }
 
