@@ -3,7 +3,8 @@ import '../../assets/scss/team.scss';
 import Myra from '../../assets/img/myra.png';
 import Liz from '../../assets/img/liz.jpg';
 import Christy from '../../assets/img/christy.jpg';
-import Testimonials from '../Testimonials/Testimonials';
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
 export class Header extends Component {
     render() {
@@ -48,7 +49,9 @@ export class Header extends Component {
   </section>
 
   <section class="page-section" id="testimonials-section">
-      <Testimonials />
+
+
+      
       <div className="phone-container"> 
                         <h3 className="phone-number-heading">Call Us at: 970-660-4436</h3>
                         <h4 className="offices">Offices in Denver -and- Loveland</h4>

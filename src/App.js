@@ -27,7 +27,6 @@ function App() {
           <Route path="/" component={Services} />
           <Route path="/" component={Team} />
           <Route path="/" component={Contact} />
-          {/* <Route path="/" component={Footer} /> */}
         </div>
       </Switch>
       <Footer />
