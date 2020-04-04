@@ -10,6 +10,7 @@ import Team from './components/Team/Team';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Documents from './pages/Documents/Documents';
+import Services_Page from './pages/Services_Page/Services_Page';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/documents-needed" component={Documents} />
+        <Route path="/services" component={Services_Page} />
          <div className="App">
           <Route path="/" component={Header} />
           <Route path="/" component={Services} />
