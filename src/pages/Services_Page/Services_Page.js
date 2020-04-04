@@ -70,7 +70,7 @@ export class Services_Page extends Component {
                     We are a debt relief agency. We help people file for bankruptcy relief under the Bankruptcy Code.
                     </p>
                     <h5>
-                    BANKRUPTCY FACTS AND FREQUENTLY ASKED QUESTIONS
+                    INFORMATION / FREQUENTLY ASKED QUESTIONS
                     </h5>
                     <br />
                     <p className="document-specs" id="document-italic">
