@@ -25,7 +25,7 @@ export class Navbar extends Component {
                     </div>      
 
                     <div className="btn" onClick={this.handleClick}>
-                        <a href="tel:970-660-4436"><FaPhone className="nav-btn" id="phone"/></a>
+                        <a href="tel:970-660-4436"><FaPhone className="nav-btn" id="phone-icon"/></a>
                         <FaBars className="nav-btn"/>
                     </div> 
                 </div>
