@@ -11,6 +11,7 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Documents from './pages/Documents/Documents';
 import Services_Page from './pages/Services_Page/Services_Page';
+import Contact_Page from './pages/Contact_Page/Contact_Page';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Switch>
         <Route path="/documents-needed" component={Documents} />
         <Route path="/services" component={Services_Page} />
+        <Route path="/contact" component={Contact_Page} />
          <div className="App">
           <Route path="/" component={Header} />
           <Route path="/" component={Services} />
