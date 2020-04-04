@@ -3,6 +3,9 @@
     height: 66vh;
 }
 
-@media (min-width: 381px) and (max-width: 420px) {
-
+@media (min-width: 200px) and (max-width: 420px) {
+    #contact-page-container {
+        padding-top: 10px;
+        height: 96vh;
+    }
 }    

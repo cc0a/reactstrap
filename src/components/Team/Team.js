@@ -49,9 +49,6 @@ export class Header extends Component {
   </section>
 
   <section class="page-section" id="testimonials-section">
-
-
-      
       <div className="phone-container"> 
                         <h3 className="phone-number-heading">Call Us at: 970-660-4436</h3>
                         <h4 className="offices">Offices in Denver -and- Loveland</h4>
