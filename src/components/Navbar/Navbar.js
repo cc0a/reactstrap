@@ -34,8 +34,8 @@ export class Navbar extends Component {
 
 
                 <ul className={this.state.isOpen ? 'showNav': 'undefined'}>
-                    <li><a href="#" className="nav-links">Home</a></li>
-                    <li><a href="#" className="nav-links">Documents Needed</a></li>
+                    <li><Link to="/" className="nav-links">Home</Link></li>
+                    <li><Link to="/documents-needed" className="nav-links">Documents Needed</Link></li>
                     <li><a href="#" className="nav-links">Services</a></li>
                     <li><a href="#" className="nav-links">Contact</a></li>
                 </ul>

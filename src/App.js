@@ -9,19 +9,21 @@ import Services from './components/Services/Services';
 import Team from './components/Team/Team';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Documents from './pages/Documents/Documents';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Switch>
-        <div className="App">
-          <Navbar />
-          <Header />
-          <Services />
-          <Team />
-          <Contact />
-          <Footer />
+        <Route path="/documents-needed" component={Documents} />
+         <div className="App">
+          <Route path="/" component={Header} />
+          <Route path="/" component={Services} />
+          <Route path="/" component={Team} />
+          <Route path="/" component={Contact} />
+          <Route path="/" component={Footer} />
         </div>
       </Switch>
     </Router>
