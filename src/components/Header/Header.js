@@ -8,6 +8,10 @@ export class Header extends Component {
         return (
             <div className="masthead">
                 <header class="masthead" id="masthead-specific">
+                <div class="col-md-12" id="banner-div">
+                                <h3>WE ARE STILL IN OPERATION! FREE PHONE CONSULT!</h3>
+                                <h3>BANKRUPTCIES ARE STILL BEING PROCESSED BY PHONE CONFERENCE!</h3>
+                            </div>
                         <div class="container">
                             <div class="intro-text" id="masthead-phrase-1">
                                 <div id="masthead-phrase-1">You Are Not Alone</div>
