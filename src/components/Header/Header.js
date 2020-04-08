@@ -9,8 +9,9 @@ export class Header extends Component {
             <div className="masthead">
                 <header class="masthead" id="masthead-specific">
                 <div class="col-md-12" id="banner-div">
-                                <h3>WE ARE STILL IN OPERATION! FREE PHONE CONSULT!</h3>
-                                <h3>BANKRUPTCIES ARE STILL BEING PROCESSED BY PHONE CONFERENCE!</h3>
+                                <h3>WE ARE STILL IN OPERATION DURING COVID 19! BANKRUPTCY COURTS</h3>
+                                <h3>ARE OPEN. HEARINGS BY PHONE! NO IN-PERSON MEETINGS! CALL US AT</h3>
+                                <h3>970-660-4436</h3>
                             </div>
                         <div class="container">
                             <div class="intro-text" id="masthead-phrase-1">
