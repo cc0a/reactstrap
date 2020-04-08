@@ -40,7 +40,7 @@ export class Header extends Component {
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="about-team">
         <div class="col-lg-8 mx-auto text-center">
           <p class="large text-muted">The team at Lounsberry Law embraces a forward-thinking, yet practical and personal approach to providing legal services to our clients.</p>
         </div>
