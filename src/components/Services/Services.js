@@ -31,7 +31,7 @@ export class Services extends Component {
                 </div>
                 </span>
             <h4 class="service-heading">Social Security Disability Assistance</h4>
-                <p id="services-content">If you are suffering from a disability and you cannot do the work you did before, cannot adjust to other work because of your medical conditions, and your disability has lasted or is expected to last for at least one year or result in death, you may be eligible for SSD benefits.</p>
+                <p id="bankruptcy-content">If you are suffering from a disability and you cannot do the work you did before, cannot adjust to other work because of your medical conditions, and your disability has lasted or is expected to last for at least one year or result in death, you may be eligible for SSD benefits.</p>
                 </div>
             </div>
         </div>

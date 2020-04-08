@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../Documents/documents.scss';
 import Navbar from '../../components/Navbar/Navbar';
+import './services_page.scss';
 
 export class Services_Page extends Component {
     render() {
@@ -8,7 +9,7 @@ export class Services_Page extends Component {
             <div className="documents-div">
                 <div className="documents-content">
                     <h1 className="document-heading">Services</h1>
-                    <h2>
+                    <h2 className="docs-heading">
                     Bankruptcy Help
                     </h2>
                     <p className="document-specs">
@@ -20,7 +21,7 @@ export class Services_Page extends Component {
                     <p className="document-specs">
                     We charge a flat rate of $599, which can be paid in two payments. The court charges a filing fee of $335, which can be made in four monthly payments; the first payment is not due until 2 weeks after your case if filed with the court. The court filing will stop wage garnishments and collection activity immediately!  We can request fee waivers for very low income individuals.
                     </p>
-                    <h2>
+                    <h2 className="docs-heading">
                     Social Security Disability
                     </h2>
                     <p className="document-specs">
@@ -58,10 +59,10 @@ export class Services_Page extends Component {
                     </p>
                     <br />
                     <p className="document-specs">
-                    Elizabeth Lounsberry has been a licensed attorney since 1993. Christy Hawes has been preparing bankruptcies for over 20 years.
+                    Elizabeth Lounsberry has been a licensed attorney since 1993. Christy Hawes has been in the legal field for over 20 years.
                     </p>
                     <p className="document-specs">
-                    LOUNSBERRY LAW OFFICE PC is here to help you through this difficult time. Call us to ask questions or schedule a free consult! Office locations in Denver and Greeley. Hours are 12-730pm Monday through Thursday, 12-5pm Friday.
+                    LOUNSBERRY LAW OFFICE PC is here to help you through this difficult time. Call us to ask questions or schedule a free consult! Office locations in Greeley and Loveland. Hours are 12:00 - 7:30pm.
                     </p>
                     <p className="document-specs">
                     We are fast, efficient, and experienced. The first consult is done by phone, followed up with an email list of documents to get together for your first appointment. We charge a flat fee of $599 and allow payments. The court charges a filing fee of $335, which can be made in payments, or waived if you qualify as low income. Call us for details.
@@ -108,27 +109,7 @@ export class Services_Page extends Component {
                     <p className="document-specs">
                     After discharge, you can begin rebuilding credit with a secured card. Contact <a href="www.VestedCreditRepair.com">www.VestedCreditRepair.com</a> for more information regarding credit clean up, credit repair, and credit rebuilding after bankruptcy.
                     </p>
-                    <p className="document-specs" id="document-italic">
-                    What About My Tax Refunds?
-                    </p>
-                    <p className="document-specs">
-                    You may be able to protect some of your tax refund, depending your situation. We will need to see your taxes. 
-                    </p>
-                    <p className="document-specs">
-                    Do not spend your refund without talking to us first! There are rules that you must follow.
-                    </p>
-                    <p className="document-specs" id="document-italic">
-                    Will my bankruptcy be reported in the paper?
-                    </p>
-                    <p className="document-specs">
-                    Whether your bankruptcy filing is reported in the paper is up to the paper. Bankruptcy is a public filing and the petition will be a public record. Many papers do not publish the names of those who have filed for bankruptcy anymore, but that does not mean it can’t happen.
-                    </p>
-                    <p className="document-specs" id="document-italic">
-                    How do I handle phone calls from creditors until I file bankruptcy?
-                    </p>
-                    <p className="document-specs">
-                    You have no duty to talk to creditors. Once you inform a creditor that you have hired us and give them our information, they are no longer allowed to contact you.
-                    </p>
+            
                     <h5>
                     STUDENT LOANS, BACK TAXES, PAYDAY LOANS
                     </h5>
@@ -147,190 +128,7 @@ export class Services_Page extends Component {
                     <p className="document-specs">
                     Not all bankruptcy attorneys are equal! Only hire a bankruptcy attorney who primarily practices bankruptcy, has been in business for several years, and you feel comfortable with. Ask questions. Consults are usually free. Shop around. 
                     </p>
-                    <h3>GLOSSARY OF BANKRUPTCY TERMS</h3>
-                    <p className="document-specs">
-                    Dealing with a bankruptcy process is often confusing and you will run across various terms you may not be familiar with and need to understand. This glossary will provide you with the most common terms you will encounter and their meaning.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                            Bankruptcy 
-                        </b>
-                         - A condition where a debtor cannot pay debts now or as they come due and uses the protection of the law to either liquidate property or reorganize his or her financial affairs.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                            Bankruptcy Estate 
-                        </b>
-                         - The property of a debtor which comes under the jurisdiction of the bankruptcy court and trustee when a person files for protection under the Bankruptcy Code.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Bankruptcy trustee 
-                        </b>
-                         - A person appointed by the Bankruptcy Court to take charge of the bankruptcy estate and handle any actions on behalf of the estate. The trustee is who holds the Meeting of Creditors, also known as your trustee meeting or Section 341 meeting.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Creditor
-                        </b>
-                         - One who is owed money or some other thing by obligation or by promise.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Debtor
-                        </b>
-                         - One who owes a debt.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Default 
-                        </b>
-                         - A failure to perform an obligation imposed by law or contract.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Deficiency
-                        </b>
-                         - The unpaid balance of a debt on which there is a security agreement, where the sale of the secured property has failed to pay the full amount of the debt owed.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Discharge
-                        </b>
-                         - The cancellation of an obligation
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Eviction
-                        </b>
-                         - The action of depriving a person of the possession of land or rental property which the person has held or leased.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Execution
-                        </b>
-                         - The legal process of enforcing a judgment. A money judgment is usually executed by seizing and selling property of the debtor.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Exemption
-                        </b>
-                         - A privilege allowed by law to a judgment debtor that he or she may hold certain property from all liability to being seized or sold on execution or by any other court order.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Foreclosure
-                        </b>
-                         - A process by which a creditor with a mortgage can force a debtor to give up his or her interest in the property because of default. The creditor can then have the property sold to satisfy the debt. Also may be referred to as foreclosure by sale, or performance foreclosure.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Garnishment
-                        </b>
-                         - A process under law where a debtor’s property, money or credits under another party’s control are applied as payment of a debt to a creditor.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Homestead
-                        </b>
-                         - A building which can be used for a home and an amount of land at least one-quarter acre, if available, and not exceeding 40 acres (outside city limits) and ½ acre inside city limits.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Judgment
-                        </b>
-                         - A determination of law as the result of an action in court as to whether a legal duty or liability does or does not exist.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Judgment Creditor
-                        </b>
-                         - A person who has obtained a money judgment in court and can now enforce the judgment by execution.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Judgment Debtor
-                        </b>
-                         - A person who has a money judgment taken against them, which has not been satisfied.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Judgment Lien
-                        </b>
-                         - A lien which can be filed by a judgment creditor against the real property of a judgment debtor, in order to satisfy the judgment.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Lien
-                        </b>
-                         - An interest in collateral which provides that the collateral may be taken and sold in order to pay a debt if a debtor defaults. See also security interest. 
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Mortgage
-                        </b>
-                         - A lien on real property.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Personal Property
-                        </b>
-                         - Movable property.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Purchase money security interest:
-                        </b>
-                         - A lien which is created when a debtor uses money loaned by a creditor to make a purchase and gives the creditor a lien on the property purchased with the creditor’s money.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Replevin
-                        </b>
-                         - An action to recover personal property by a party with a lien or security interest on the property.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Secured debt
-                        </b>
-                         - A debt subject to a security interest (mortgage, vehicle loan).
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Secured party
-                        </b>
-                         - Land, real estate.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Real property
-                        </b>
-                         - A creditor, seller or other person who holds a security interest in the property of a debtor.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Security Agreement
-                        </b>
-                         - A written document which creates or provides for a security interest.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Security interest
-                        </b>
-                         - An interest in collateral which provides that the collateral may be taken and sold in order to satisfy a debt if a debtor defaults. See also lien.
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Unsecured debt
-                        </b>
-                         - Debt not subject to a security interest (credit card, medical bill, payday loan).
-                    </p>
-                    <p className="document-specs">
-                        <b>
-                        Unsecured Party
-                        </b>
-                         - A creditor, seller or other person who is owed a debt without having obtained a security interest through a security agreement on property of the debtor
-                    </p>
+                    
                 </div>
             </div> 
         )
