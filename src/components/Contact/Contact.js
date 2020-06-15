@@ -14,7 +14,7 @@ export class Contact extends Component {
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate" action="//formspree.io/jmckeeco84@gmail.com" method="POST">
+          <form id="contactForm" name="sentMessage" novalidate="novalidate" action="//formspree.io/bankruptcy.christy@gmail.com" method="POST">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
